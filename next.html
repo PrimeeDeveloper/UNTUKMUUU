@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>UNTUK INTANNN</title> 
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            background-image: url('Background.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: grid;
+            grid-template-areas: 
+                "top-left top-right"
+                "button button"
+                "bottom-left bottom-right"
+                ". bottom-text";
+            gap: 20px;
+            text-align: center;
+            position: relative; 
+        }
+
+        .box {
+            width: 150px;
+            height: 200px;
+            border: 2px solid white;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .box-top-left {
+            grid-area: top-left;
+        }
+
+        .box-bottom-right {
+            grid-area: bottom-right;
+        }
+
+        .text {
+            color: white;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-size: 14px;
+            line-height: 1.6;
+            text-align: left;
+        }
+
+        .text-top-right {
+            grid-area: top-right;
+        }
+
+        .text-bottom-left {
+            grid-area: bottom-left;
+        }
+
+        .text-bottom {
+            grid-area: bottom-text;
+            position: absolute;
+            bottom: 50px; 
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            padding: 10px; 
+            font-size: 12px; 
+            line-height: 1.4; 
+        }
+
+        .button {
+            grid-area: button;
+            padding: 10px 20px;
+            font-size: 15px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            background-color: white;
+            color: black;
+            margin: auto;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        @media (max-width: 480px) { 
+            body {
+                height: auto;
+                padding: 50px 0;
+            }
+            .text-top-right, .text-bottom-left {
+                font-size: 12px;
+                padding: 10px;
+            }
+            .text-bottom {
+                font-size: 10px;
+                padding: 8px;
+                bottom: 280px;
+            }   
+            .box-top-left {
+                margin-left: 10px;
+            }
+        }
+    </style> 
+</head> 
+<body> 
+    <audio autoplay>
+        <source src="hbd.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="container"> 
+        <div class="box box-top-left"> 
+            <img src="IMG-20240714-WA0007.jpg" alt="Image 1"> 
+        </div> 
+        <div class="text text-top-right">
+            HAPPY BIRTHDAY SAYANGGG semogaa panjang umurr sehattt selaluuuu aamiin, oiyaaa tambah umurr berartii kamuu haruss lebihh semangatt lagiii untuk menggapai citaa" muu sayanggg, kamuu jangan mudahhh menyerahh sayanggg, kamu kann besokk menjadii calon ibuu darii anak kitaaa🥹🥹💗💗, tetap semangatt karenaa akuu yakin semuaaa keinginann kamuu satu" bisa tercapaii, dan jangann berkecil hati kalau semisalnya kamuu gagal. kann kamu tauu yaa kalauu kegagalan adalah sebuah prosess dan kunci darii semua kesuksesann, percayalahh. tetaplah bermimpii setinggi langittt, dan berusahalah untuk meraih semuaa impianmu akuu bakalan tetapp disinii💗💗
+        </div> 
+        <a href="message.html" class="button">LANJUTT SAYANGG</a>
+        <div class="text text-bottom-left">
+            kamuu tau gaa, kamuu itu kuatt, kamuu itu hebatt, kamu udah sejauh ini ngejalanin hari2 kamuu dari mulai kamu masi di rahim ibu sampe kamu udah sedewasa ini, makasihh yaa sayanggg kamuu udah mau ngejalanin hari hari kamuu bareng samaa akuu, walaupunn kita banyak bertengkarnyaa hehe, tapii aku mintaa kamuu sama akuu terus yaa sayanggg🥹🥹, kalo gaa sama kamuu rasanya ituu kurang soalnyaa hehe, intinya makasihh banyak buatt kamuu, semogaa kamuu panjang umurr, selaluu diberi kesehatann, dimudahkan segalaa urusan kamuu walaupunn kamu sering ngeluhh sama hari hari kamuu, sama masalah kamuu tapii tetap semangatt yaa sayangg akuu ada disinii selalu buatt kamuuu, I LOVEE YOUU SAYANGGG💗💗
+        </div> 
+        <div class="box box-bottom-right"> 
+            <img src="IMG-20240721-WA0071.jpg" alt="Image 2"> 
+        </div> 
+        <div class="text text-bottom">
+            HAPPY BIRTHDAY SAYANGGG💗💗
+        </div> 
+    </div> 
+</body>
+</html>
